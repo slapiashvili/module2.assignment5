@@ -102,7 +102,6 @@ extension FavoriteBerserkPanelsViewController {
         cell.panelImageView.image = panel.panelImage
         cell.descriptionLabel.text = panel.panelDescription
         
-        // Set cell background color based on its index
         if indexPath.row % 2 == 0 {
             cell.backgroundColor = .customGray
         } else {
